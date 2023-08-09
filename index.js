@@ -188,7 +188,7 @@ function startApp() {
     });
 }
 
-connection.connect()
+connection
   .then(() => {
     console.log('Connected to the database!');
     startApp();

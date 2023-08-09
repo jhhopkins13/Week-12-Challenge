@@ -4,12 +4,12 @@
     "description": "A command-line application for managing departments, roles, and employees in a company using MySQL.",
     "main": "index.js",
     "dependencies": {
-        "inquirer": "^8.2.6",
+        "inquirer": "^8.2.4",
         "mysql": "^2.18.1"
     },
     "scripts": {
         "start": "node index.js",
-        "seed": "node seeds/seed.js"
+        "seed": "node ./db/seed.js"
     },
     "author": "Your Name",
     "license": "MIT"
